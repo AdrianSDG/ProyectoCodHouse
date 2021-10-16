@@ -37,7 +37,8 @@ nav a:hover {
   display: flex;
   justify-content: center;
   flex-direction: row;
-  font-family: 'IM Fell English SC', serif; }
+  font-family: 'IM Fell English SC', serif;
+  font-size: 18px; }
 
 footer {
   display: flex;

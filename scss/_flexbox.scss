@@ -1,0 +1,44 @@
+
+
+header{
+padding: 15px;
+background-image: linear-gradient(to bottom,grey,wheat);
+font-size: 2em;
+}
+
+nav{
+display: flex;
+justify-content: center;
+flex-direction: row;
+}
+
+nav a{
+text-decoration: none;
+padding: 10px;    
+}
+
+nav a:hover{
+background-color: red;
+color: white;
+}
+
+.indmain{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    font-family:'IM Fell English SC', serif; 
+}
+
+footer{
+    display: flex;
+    justify-content: right;
+    background-image: linear-gradient(to top,grey,wheat);
+}
+
+footer a{
+    text-decoration: none;
+    padding: 10px;  
+    font-family:'Bebas Neue', cursive;
+    font-size: 25px;
+}
+ 

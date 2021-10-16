@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Contacto</title>
+</head>
+
+<body id="bodycont">
+    <main>
+    <h1>Contacto</h1>
+    
+    <form action="" method="post">
+        <fieldset>
+            <legend>Comunicate Con Nosotros</legend>
+        <p>
+            <label for="nombre" id="nombre" name="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required> 
+        </p>
+        <p>
+            <label for="apellido" id="apellido" name="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" required>
+        </p>
+        <p>
+            <label for="email" id="email" name="emai">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Mail@sitio.com">
+        </p>
+        <p>
+            <label for="telefono" id="telefono" name="telefono">Teléfono:</label>
+            <input type="number" name="telefono" id="telefono">
+        </p>
+        <p>
+            <textarea name="comentarios" id="comentarios" cols="30" rows="10">
+                Escribe aqui sobre ti. Sobre las experiencias que buscas.
+            </textarea>
+       </p>
+       <p>
+           ¿Como deseas que nos dirijamos a ti?
+       </p>
+       <p>
+       <input type="checkbox" name="masculino" id="masculino">
+       <label for="masculino" id="masculino" name="masculino">Sr.</label>
+        </p>
+        <p>
+         <input type="checkbox" name="femenino" id="femenino">
+         <label for="femenino" id="femenino" name="femenino">Sra.</label>   
+        </p>
+        <p>
+            <input type="checkbox" name="nointeres" id="nointeres">
+            <label for="nointeres" id="nointeres" name="nointeres">No es de interes</label>   
+           </p>
+        <p>
+            Selecciona el area donde resides
+        </p>
+        <p>
+           <input type="radio" name="latinoamerica" id="latinoamerica">
+           <label for="latinoamerica" id="latinoamerica" name="latinoamerica">Latinoamerica</label>  
+        </p>
+        <p>
+            <input type="radio" name="america" id="america">
+            <label for="america" id="america" name="america">America del Norte</label>  
+        </p>
+        <p>
+            <input type="radio" name="europa" id="europa">
+            <label for="europa" id="europa" name="europa">Europa</label>  
+        </p>
+        <p>
+             <label for="tarjeta" id="tarjeta" name="tarjeta">
+                 <span>Grupo de viaje</span>
+             </label>
+             <select name="grupo" id="grupo">
+                 <option value="familia">Familia</option>
+                 <option value="amigos">Amigos</option>
+                 <option value="famami">Familia y Amigos</option>
+                 <option value="pareja">Pareja</option>
+             </select>
+            </p>
+            <p>
+                <input type="submit" value="Enviar Datos">
+            </p>
+            <p>
+                <input type="reset" value="Borrar Datos">
+            </p>
+           
+        </fieldset>
+    </form>
+</main>
+<footer>
+    <a href="index.html">Home</a>
+    <a href="servicios.html">Servicios</a>
+    <a href="consejos.html">Consejos</a>
+    <a href="conocenos">Conocenos</a>
+</footer>
+</body>
+</html>

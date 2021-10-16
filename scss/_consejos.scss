@@ -1,0 +1,30 @@
+#maleta{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Cabin Sketch', cursive;
+    margin: 10px;    
+}
+#efectivo{
+    display: flex;
+    flex-direction: row-reverse;
+    font-family: 'Fredericka the Great', cursive;
+    margin: 10px; 
+}
+#investiga{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Cabin Sketch', cursive;
+    margin: 10px; 
+}
+#pasap{
+    display: flex;
+    flex-direction: row-reverse;
+    font-family: 'Fredericka the Great', cursive;
+    margin: 10px; 
+}
+#conducir{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Cabin Sketch', cursive;
+    margin: 10px; 
+}

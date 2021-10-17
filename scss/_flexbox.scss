@@ -2,7 +2,7 @@
 
 header{
 padding: 15px;
-background-image: linear-gradient(to bottom,grey,wheat);
+background-image: linear-gradient(to left,#fffbd5,#b20a2c);
 font-size: 2em;
 }
 
@@ -10,6 +10,8 @@ nav{
 display: flex;
 justify-content: center;
 flex-direction: row;
+font-family: 'Fredericka the Great', cursive;
+font-size: 40px;
 }
 
 nav a{

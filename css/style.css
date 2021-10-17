@@ -25,7 +25,8 @@ nav {
   justify-content: center;
   flex-direction: row;
   font-family: 'Fredericka the Great', cursive;
-  font-size: 40px; }
+  font-size: 30px;
+  align-items: center; }
 
 nav a {
   text-decoration: none;
@@ -57,19 +58,22 @@ footer a {
   display: flex;
   flex-direction: row;
   font-family: 'IM Fell English SC', serif;
-  font-size: 35px; }
+  font-size: 35px;
+  align-items: center; }
 
 #paseos {
   display: flex;
   flex-direction: row-reverse;
   font-family: 'IM Fell English SC', serif;
-  font-size: 35px; }
+  font-size: 35px;
+  align-items: center; }
 
 #montañas {
   display: flex;
   flex-direction: row;
   font-family: 'IM Fell English SC', serif;
-  font-size: 35px; }
+  font-size: 35px;
+  align-items: center; }
 
 #maleta {
   display: flex;
